@@ -1,0 +1,40 @@
+.header-chanel {
+  @apply flex justify-between px-0 pt-4 mx-4 md:px-44;
+}
+
+.container-options {
+  @apply sticky top-[50px] bg-primary pt-4;
+}
+
+.divider-line {
+  @apply w-full h-[1px] bg-[crimson] absolute bottom-1;
+}
+
+.list-options {
+  @apply uppercase flex justify-between px-0 text-sm flex-wrap md:text-base md:px-44;
+}
+
+.list-options > li {
+  flex: auto;
+  text-align: center;
+}
+
+.list-options > li > a {
+  @apply w-full inline-block;
+}
+
+.active-btn {
+  @apply border-b-[3px] px-5;
+}
+
+.inactive-btn {
+  @apply px-5;
+}
+
+.videos-container {
+  @apply px-0 md:px-44 mx-4;
+}
+
+.videos-container > h2 {
+  @apply my-4;
+}

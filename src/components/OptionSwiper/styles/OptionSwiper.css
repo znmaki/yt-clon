@@ -1,0 +1,11 @@
+/* .optionswiper{
+
+} */
+
+.swiper-slide{
+    @apply flex items-center justify-center bg-light-gray-2 text-imput-text rounded-lg whitespace-nowrap
+}
+
+.swiper-slide-next{
+    @apply bg-imput-text text-black whitespace-nowrap
+}

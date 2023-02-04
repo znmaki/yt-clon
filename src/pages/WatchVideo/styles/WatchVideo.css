@@ -1,0 +1,37 @@
+.watch-video {
+  @apply mx-auto mt-6 space-y-6 grid w-[89.5%] tablet:space-y-0 tablet:flex tablet:flex-nowrap tablet:mx-auto;
+}
+
+/* tablet:w-[89.5%]   tablet:space-x-6*/
+
+/* .watch-video {
+  @apply mx-auto mt-6 space-y-6 grid grid-cols-1 md:grid-cols-[65%_35%] xl:grid-cols-[70%_30%] tablet:w-[89.5%] tablet:grid-cols-[70%_30%] 2xl:grid-cols-[77%_23%]
+} */
+
+.watch-video__left {
+  @apply order-1 basis-[70%];
+}
+
+/* w-[calc((100vh/2)_+_752.3px)] w-[calc((100vh/2)_+_160px)]*/
+
+.watch-video__mid {
+  @apply block order-3 tablet:hidden;
+}
+
+.watch-video__right {
+  @apply space-y-4 order-2 basis-[30%];
+}
+
+.border-after::after {
+  content: "";
+  background: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  right: 0;
+  top: 8px;
+  height: 24px;
+  width: 1px;
+}
+
+.react-player > div > iframe:focus-visible {
+  outline: none;
+}

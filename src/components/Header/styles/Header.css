@@ -1,0 +1,43 @@
+/* .header{
+  @apply 2xl:basis-[12.6%] tablet:basis-[18%]
+} */
+
+.header{
+  @apply sm:hidden tablet:block tablet:basis-[18%] 2xl:block 2xl:basis-[12.6%] hidden
+}
+
+.header.active{
+  @apply hidden
+}
+
+.scroll-style {
+  scrollbar-color: transparent transparent;
+  scrollbar-width: thin;
+}
+.scroll-style:hover {
+  scrollbar-color: #717171 transparent;
+}
+
+.scroll-app::-webkit-scrollbar {
+  background: transparent;
+  width: 16px;
+}
+
+.scroll-app::-webkit-scrollbar-thumb {
+  height: 56px;
+  border-radius: 8px;
+  border: 4px solid transparent;
+  background-clip: content-box;
+  background-color: transparent;  
+}
+
+.scroll-app:hover::-webkit-scrollbar-thumb {
+  background-color: #717171;
+}
+
+.option-with-icon {
+  @apply flex space-x-5 items-center px-3 py-2 mx-[-.2rem];
+}
+.option-with-icon:hover {
+  @apply bg-light-gray-2 px-3 py-2 mx-[-.2rem] rounded-[10px];
+}

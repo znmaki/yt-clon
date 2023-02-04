@@ -1,0 +1,14 @@
+.videoinfo {
+}
+
+.title {
+  @apply text-lg font-bold;
+}
+
+.description {
+  @apply text-sm;
+}
+
+.break-spaces {
+  white-space: break-spaces;
+}

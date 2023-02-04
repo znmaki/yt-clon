@@ -1,0 +1,7 @@
+.formyt {
+  @apply w-full h-full max-w-[540px] max-h-[40px];
+}
+
+.input-yt {
+  @apply bg-imput border text-imput-text border-imput-border border-r-0 pl-4 pr-1 rounded-l-full w-full h-full;
+}

@@ -1,0 +1,39 @@
+.comment-box {
+  @apply text-sm;
+}
+
+.author {
+  @apply text-xs;
+}
+
+.author > span {
+  @apply text-[#aaa];
+}
+
+.author-comment {
+  @apply text-sm;
+}
+
+.like-box {
+  @apply flex items-center space-x-1;
+}
+
+.like-box > button {
+  @apply p-1;
+}
+
+.like-box > button:hover {
+  @apply bg-gray-hover rounded-full p-1;
+}
+
+.like-box > span {
+  @apply text-[#aaa] !mr-3;
+}
+
+.answer-box > button {
+  @apply flex px-2 py-2 text-[#3ea6ff];
+}
+
+.answer-box > button:hover {
+  @apply flex bg-[#263850] rounded-full pr-3 py-2;
+}

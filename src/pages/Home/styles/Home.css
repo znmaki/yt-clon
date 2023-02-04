@@ -1,0 +1,48 @@
+.home-container {
+  @apply grid grid-cols-1 mt-6 mx-8 text-light-gray-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3 tablet:grid-cols-4 2xl:gap-y-5 2xl:mx-20;
+}
+
+.object-swiper {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.item {
+  @apply min-h-[20px] p-5;
+}
+
+.item p {
+  @apply w-full h-full rounded-[2rem];
+}
+
+.inner-carousel {
+  @apply flex bg-[crimson];
+}
+
+.carousel {
+  @apply cursor-grab overflow-hidden bg-orange-400;
+}
+
+.draggable {
+  height: 100px;
+  width: 100px;
+  background: blue;
+  border-radius: 10px;
+  margin: 50px;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* CARD */
+
+.title {
+  @apply line-clamp-2 text-base font-medium text-imput-text;
+}
+
+.chanel,
+.publish {
+  @apply text-sm;
+}

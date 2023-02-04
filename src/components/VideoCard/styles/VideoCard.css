@@ -1,0 +1,42 @@
+.videocard {
+}
+
+.image-video {
+  @apply w-full h-full max-w-[22.5rem] max-h-[12.5rem] basis-[45%] rounded-xl;
+}
+
+.image-video > img {
+  @apply w-full h-full rounded-xl;
+}
+
+.chanel-box {
+  @apply flex items-center space-x-2 my-4;
+}
+
+.chanel-box > img {
+  @apply w-[24px] h-[24px] rounded-full;
+}
+
+.chanel-box > p {
+  @apply text-[#aaa] text-xs;
+}
+
+.chanel-box > p:hover {
+  @apply text-[crimson];
+}
+
+.description {
+  @apply text-[#aaa] !text-xs;
+}
+
+.description:hover {
+  @apply cursor-pointer;
+}
+
+.info-video > .text-a {
+  @apply text-xl;
+}
+
+.info-video > .text-b {
+  @apply text-[#aaa] text-xs;
+}
