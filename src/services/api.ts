@@ -5,7 +5,7 @@ import axios from "axios";
 const optionsVideos = {
     params: { part: 'snippet,id', regionCode: 'US', maxResults: '20' },
     headers: {
-        'X-RapidAPI-Key': import.meta.env.VITE_API_KEY,
+        'X-RapidAPI-Key': '48b940a4e1msh4bcba91b0e1213ap1cf5ddjsn3f810053818c',
         'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
     }
 };
@@ -13,7 +13,7 @@ const optionsVideos = {
 const optionsVideoDetail = {
     params: { part: 'contentDetails,snippet,statistics' },
     headers: {
-        'X-RapidAPI-Key': import.meta.env.VITE_API_KEY,
+        'X-RapidAPI-Key': '48b940a4e1msh4bcba91b0e1213ap1cf5ddjsn3f810053818c',
         'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
     }
 };
@@ -21,7 +21,7 @@ const optionsVideoDetail = {
 const optionsChanelDetail = {
     params: { part: 'snippet,statistics' },
     headers: {
-        'X-RapidAPI-Key': import.meta.env.VITE_API_KEY,
+        'X-RapidAPI-Key': '48b940a4e1msh4bcba91b0e1213ap1cf5ddjsn3f810053818c',
         'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
     }
 };
@@ -29,7 +29,7 @@ const optionsChanelDetail = {
 const oCommentsVideo = {
     params: { part: 'snippet', maxResults: '100' },
     headers: {
-        'X-RapidAPI-Key': import.meta.env.VITE_API_KEY,
+        'X-RapidAPI-Key': '48b940a4e1msh4bcba91b0e1213ap1cf5ddjsn3f810053818c',
         'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
     }
 };
@@ -37,7 +37,7 @@ const oCommentsVideo = {
 const oSuggetsVideo = {
     params: { part: 'id,snippet', type: 'video', maxResults: '50' },
     headers: {
-        'X-RapidAPI-Key': import.meta.env.VITE_API_KEY,
+        'X-RapidAPI-Key': '48b940a4e1msh4bcba91b0e1213ap1cf5ddjsn3f810053818c',
         'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
     }
 };
@@ -49,7 +49,7 @@ const oVideoChanel = {
         maxResults: '50'
     },
     headers: {
-        'X-RapidAPI-Key': import.meta.env.VITE_API_KEY,
+        'X-RapidAPI-Key': '48b940a4e1msh4bcba91b0e1213ap1cf5ddjsn3f810053818c',
         'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
     }
 };
