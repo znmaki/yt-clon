@@ -7,13 +7,10 @@ import './styles/Home.css';
 
 const Home = () => {
   const { getVideosC, videos, changeHidden, hidden } = useContext(VideoContext)
-  console.log(import.meta.env.VITE_API_KEY);
   
   fetchHome({ getVideosC, changeHidden, hidden })
-  {/* {video.type == 'video' && <p>{video.type}</p>} */ }
-  return (
 
-    /* basis-[87.4%] px-[50px] */
+  return (
     <>
       <OptionSwiper />
       <div className='home-container'>
