@@ -3,10 +3,10 @@ import { IChanelDetail, IComments, ISuggest, IVideo3, IVideoDetail } from "@/mod
 import axios from "axios";
 
 const optionsVideos = {
-    params: { part: 'snippet,id', regionCode: 'US', maxResults: '20' },
+    params: { part: 'snippet,id', regionCode: 'JP', maxResults: '20' },
     headers: {
         'X-RapidAPI-Key': '48b940a4e1msh4bcba91b0e1213ap1cf5ddjsn3f810053818c',
-        'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
+        'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com',
     }
 };
 
@@ -53,6 +53,11 @@ const oVideoChanel = {
         'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
     }
 };
+
+export const fetchAPI = async (url: any) => {
+    const { data } = await axios.get(`https://youtube-v31.p.rapidapi.com/${url}`, optionsVideos)
+    return data;
+}
 
 export const getVideos = (url: any) => {
     return axios.get<IVideo3>(`https://youtube-v31.p.rapidapi.com/${url}`, optionsVideos)
